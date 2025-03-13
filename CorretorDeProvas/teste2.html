@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATLA Ensino</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fff5f5;
+            color: #333;
+            overflow-x: hidden; /* Evita rolagem horizontal */
+        }
+
+        header {
+            width: 100%;
+            background-color: #ff3b30;
+            padding: 5px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        section {
+            height: 100vh;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn {
+            background-color: white;
+            color: #ff3b30;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn-fixed {
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            background-color: #fc9d8e;
+            color: black;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .hero {
+            height: 70vh;
+            font-size: 2rem;
+            background-color: #fff5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .hero img {
+            height: 50vh;
+        }
+
+        .highlight {
+            color: #ff3b30;
+            font-weight: bold;
+        }
+
+        .prof{
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            text-align: center;
+            background-color:#ff5757 ;
+            background: url('./imagens/Design\ sem\ nome\ \(9\).png');
+            background-size: 110%;
+            background-position: top;
+            
+        }
+        .sobre{
+            font-size: 1.5rem;
+            background-color:#ff5757 ;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: center;
+            
+        }
+        .sobre h2{
+            text-align: center;
+        }
+        .vantagens{
+            background-color:#ff5757 ;
+            text-align: center;
+        }
+    
+        .vantagens ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .vantagens ul li {
+            margin: 10px 0;
+        }
+
+        .cta {
+            background-color:#ff5757 ;
+            color: white;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        }
+
+        .download {
+            background-color: black;
+            color: white;
+        }
+
+        footer {
+            background-color: #ff3b30;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./imagens/c6a7b6ac-145d-4dd3-a458-ecd98f485423.png" height="50" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#vantagens">VANTAGENS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <a href="#download" class="btn-fixed">Baixe agora!</a>
+
+    <section class="hero">
+        <div class="machete">
+            <h2>Cansado de Corrigir Avaliações Manualmente?</h2>
+            <h2>Deixe a <span class="highlight">Tecnologia</span> Fazer Isso <span class="highlight">por Você!</span></h2>
+        </div>
+        <div>
+            <img src="./imagens/763c92e6-24fd-48c6-838d-a515fbe8376b.png" alt="">
+        </div>
+    </section>
+
+    <section class="prof">
+        <p>Professor, você passa horas corrigindo gabaritos, lidando com prazos apertados e ainda se preocupa com erros na correção?</p>
+        <p><strong>E se fosse possível corrigir tudo em segundos, com precisão e sem esforço?</strong></p>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h2>Conheça nosso App!</h2>
+        <p>Com nosso aplicativo, você escaneia os gabaritos com a câmera do celular e recebe uma correção instantaneamente!</p>
+        <p><strong>✔ Rápido, preciso e sem complicações!</strong></p>
+    </section>
+
+    <section id="vantagens" class="vantagens">
+        <h2>Vantagens:</h2>
+        <ul>
+            <li>✅ Correção automática em segundos</li>
+            <li>📊 Relatórios detalhados e gráficos</li>
+            <li>⏳ Mais tempo para você</li>
+        </ul>
+    </section>
+
+    <section class="cta">
+        <h2>Chega de perder horas corrigindo tentativas!</h2>
+        <p>Simplifique sua rotina e ganhe mais praticidade!</p>
+    </section>
+
+    <section id="download" class="download">
+        <h2>Clique no botão abaixo e descubra como a Correção automática pode transformar sua rotina!</h2>
+        <p>Disponível para Android, iPhone e PC</p>
+    </section>
+
+    <footer id="contato">
+        <h3>Entre em contato!</h3>
+        <p>Converse conosco agora pelo nosso chat online!</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+        </div>
+    </footer>
+
+</body>
+</html>
