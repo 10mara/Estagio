@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #fff5f5;
+    color: #333;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+}
+
+header {
+    
+    width: 100%;
+    background-color: #ff3b30;
+    padding: 5px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    flex: 1;
+    
+}
+
+nav {
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background-color: white;
+    color: #ff3b30;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-fixed {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background-color: #fc9d8e;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.hero {
+    height: 100vh;
+    font-size: 2rem;
+    background-color: #fff5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    animation: aparecer 1s ease-out forwards;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero img {
+    height: 50vh;
+}
+
+.highlight {
+    color: #ff3b30;
+    font-weight: bold;
+}
+
+.prof{
+    max-height: 60vh;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+    background-color:#ff5757 ;
+    background: url('./imagens/Sem\ nome\ \(1080\ x\ 1080\ px\)\ \(8\).png');
+    background-size: 100%;
+    background-position:  bottom;
+    background-repeat: no-repeat;
+}
+
+.sobre{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: #ff5757 url('./imagens/Sem\ nome\ \(1080\ x\ 1080\ px\)\ \(6\).png')  bottom/100% no-repeat;
+    position: relative; /* Necessário para usar z-index */
+    z-index: 1; /* Garante que fique acima do fundo do body */
+    
+}
+.sobre h2{
+    text-align: center;
+}
+.celular{
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    
+}
+.vantagens h2{
+    color: black;
+    font-size: 2rem;
+}
+.vantagens{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: rgb(94, 92, 92);
+    background-color:#fc9d8e ;
+    text-align: center;
+}
+
+.vantagens ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vantagens ul li {
+    margin: 10px 0;
+}
+.vantagens  img {
+    border-radius: 20%;
+    width: 80%;
+    height: auto;
+    max-width:100%;
+    max-height: 300px;
+}
+.carousel-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    background-color:#fca99d ;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+.carousel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: 100%;
+    padding: 20px;
+}
+.carousel-item img {
+width: 70vw;  
+height: 50vh; 
+object-fit: cover; 
+border-radius: 15%; 
+}
+.carousel h3 {
+    color: #333;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.carousel-controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.carousel-controls button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.cta {
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    background-color:#fc9d8e ;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 70%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.download h2 {
+    color:  #fff5f5;
+    font-size: 1.8em;
+}
+.download p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+.download-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 30px;
+    background-color: #ff3b30;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+}
+.download-button:hover {
+    background-color: #d32f2f;
+}
+.btn-fixed:hover {
+    background-color: #e74141;
+}
+.apps{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #ff3b30;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 1.5rem;
+    gap: 30px;
+    justify-content: space-between;
+    
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+}
+.entreCont{
+    padding: 10px;
+    background-color:white;
+    color: black#fff5f5;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.empresa {
+    font-size: 0.9rem;
+    text-align: right;
+}
+.empresa a{
+
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 700px) {
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #ff3b30;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    nav ul.active {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .download{
+        font-size:0.8rem;
+        gap: 20px;
+    }
+
+    .carousel-container h2,h2 {
+        font-size:1.5rem;
+    }
+
+    .carousel-item h3 {
+        font-size: 0.9rem;
+    }
+    .carousel-item p {
+        font-size: 0.8rem;
+    }
+    body p{
+        font-size: 1.1rem;
+    }
+    .entreCont{
+        font-size: 1rem;
+    }
+    #contato p,h3{
+        font-size: 0.8rem;
+    }
+    #contato img{
+        height: 4vh;
+    }
+    .hero img{
+        height: 30vh;
+    }
+    .celular img{
+        height: 30vh;
+    }
+    .download img{
+        height: 5vh;
+    }
+    .carousel-item img {
+    width: 220px;  
+    height: 200px;
+    }
+}
