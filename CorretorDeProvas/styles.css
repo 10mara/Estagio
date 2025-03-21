@@ -416,4 +416,7 @@ footer {
     width: 220px;  
     height: 200px;
     }
+    #chat img{
+        height:8vh;
+    }
 }
