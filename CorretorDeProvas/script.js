@@ -31,3 +31,20 @@ document.getElementById('prev').addEventListener('click', function() {
 document.querySelector('.menu-toggle').addEventListener('click', function() {
     document.querySelector('nav ul').classList.toggle('active');
 });
+function verificarScroll() {
+    const elementos = document.querySelectorAll(".textprof");
+
+    elementos.forEach(elemento => {
+        const posicao = elemento.getBoundingClientRect().top;
+        const alturaTela = window.innerHeight;
+
+        if (posicao < alturaTela - 100) {
+            elemento.classList.add("show");
+        } else {
+            elemento.classList.remove("show"); // Remove a classe quando sai da tela
+        }
+    });
+}
+
+window.addEventListener("scroll", verificarScroll);
+verificarScroll(); // Executa a função ao carregar a página para verificar se algum elemento já está visível
