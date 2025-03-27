@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Configurações mais gerais*/
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,18 @@ body {
     background-color: #fff5f5;
     color: #333;
     overflow-x: hidden; /* Evita rolagem horizontal */
+}
+section {
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/*menu*/
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 header {
@@ -36,6 +50,7 @@ nav {
 }
 nav ul {
     list-style: none;
+    padding: 0;
     display: flex;
 }
 nav ul li {
@@ -45,37 +60,16 @@ nav ul li a {
     text-decoration: none;
     color: white;
 }
+
 .menu-toggle {
     display: none;
     font-size: 24px;
     cursor: pointer;
 }
 
-section {
-    height: 100vh;
-    width: 100%;
-    padding: 20px;
-}
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
+/*Botão fixo de baixe agora*/
 
 .btn {
     background-color: white;
@@ -98,6 +92,10 @@ nav ul li a {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
+
+
+
+/*Manchete de início*/
 
 .hero {
     height: 100vh;
@@ -129,6 +127,8 @@ nav ul li a {
     font-weight: bold;
 }
 
+
+/*Frase para chamara a atenção do professor*/
 .prof{
     max-height: 60vh;
     font-size: 2rem;
@@ -153,6 +153,8 @@ nav ul li a {
     transform: translateY(0);
 }
 
+
+/*Sobre o corretor*/
 .sobre{
     font-size: 1.5rem;
     color: white;
@@ -176,6 +178,9 @@ nav ul li a {
     gap: 30px;
     
 }
+
+
+/*Vantagens de usar o app*/
 .vantagens h2{
     color: black;
     font-size: 2rem;
@@ -265,6 +270,9 @@ nav ul li a {
 .carousel-controls button:hover {
     background-color: rgba(37, 35, 35, 0.8);
 }
+
+
+/*Frase chamativa para baixar*/
 .cta {
     max-height: 60vh;
     display: flex;
@@ -278,6 +286,8 @@ nav ul li a {
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
+
+/*Espaço para download*/
 .download {
     display: flex;
     flex-direction: column;
@@ -332,6 +342,9 @@ nav ul li a {
     gap: 10px;
 }
 
+
+
+/*Espaço de conatato*/
 footer {
     display: flex;
     background-color: #ff3b30;
@@ -364,6 +377,9 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+
+/*Responsividade*/
 @media (max-width: 700px) {
     
     nav ul {
