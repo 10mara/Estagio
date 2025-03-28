@@ -377,6 +377,10 @@ footer {
     text-decoration: none;
     color: white;
 }
+.privacidade{
+    font-size: 10px;
+    color: #ffd8d8;
+}
 
 
 /*Responsividade*/
