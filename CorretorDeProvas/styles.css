@@ -377,11 +377,10 @@ footer {
     text-decoration: none;
     color: white;
 }
-.privacidade{
-    font-size: 10px;
+#privacidade{
+    font-size: 0.6rem;
     color: #ffd8d8;
 }
-
 
 /*Responsividade*/
 @media (max-width: 700px) {
@@ -448,5 +447,8 @@ footer {
     }
     #chat img{
         height:8vh;
+    }
+    #privacidade{
+        font-size: 0.4rem;
     }
 }
