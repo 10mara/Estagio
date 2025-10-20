@@ -26,7 +26,7 @@ Este repositório contém os relatórios de estágio supervisionado, organizados
 ### 📄 Relatório 100 Horas
 
 - **Período:** 28/02/2025 a 02/05/2025
-- **Arquivo:** [relatorios/relatorio-100h.pdf](relatorio-100h.pdf)
+- **Arquivo:** [relatorio-100h.pdf](relatorio-100h.pdf)
 - **Status:** ✅ Concluído
 
 ---
@@ -34,7 +34,7 @@ Este repositório contém os relatórios de estágio supervisionado, organizados
 ### 📄 Relatório 200 Horas
 
 - **Período:** 05/05/2025 a 03/07/2025
-- **Arquivo:** [relatorios/relatorio-200h.pdf](relatorio-200h.pdf)
+- **Arquivo:** [relatorio-200h.pdf](relatorio-200h.pdf)
 - **Status:** ✅ Concluído
 
 ---
@@ -42,7 +42,7 @@ Este repositório contém os relatórios de estágio supervisionado, organizados
 ### 📄 Relatório 300 Horas
 
 - **Período:** 04/07/2025 a 29/08/2025
-- **Arquivo:** [relatorios/relatorio-300h.pdf](relatorio-300h.pdf)
+- **Arquivo:** [relatorio-300h.pdf](relatorio-300h.pdf)
 - **Status:** ✅ Concluído 
 
 ---
@@ -50,7 +50,7 @@ Este repositório contém os relatórios de estágio supervisionado, organizados
 ### 📄 Relatório 400 Horas
 
 - **Período:** 01/09/2025 a 30/10/2025
-- **Arquivo:** [relatorios/relatorio-400h.pdf](relatorio-400h.pdf)
+- **Arquivo:** [relatorio-400h.pdf](relatorio-400h.pdf)
 - **Status:** ✅ Concluído
 
 ---
