@@ -49,7 +49,7 @@ Este repositório contém os relatórios de estágio supervisionado, organizados
 
 ### 📄 Relatório 400 Horas
 
-- **Período:** 01/09/2025 a 30/10/2025
+- **Período:** 01/09/2025 a 28/10/2025
 - **Arquivo:** [relatorio-400h.pdf](relatorio-400h.pdf)
 - **Status:** ✅ Concluído
 
