@@ -54,6 +54,12 @@ Este repositório contém os relatórios de estágio supervisionado, organizados
 - **Status:** ✅ Concluído
 
 ---
+### 📄 Relatório Final
+
+- **Arquivo:** [relatorio-final.pdf](relatorio-final.pdf)
+- **Status:** ✅ Concluído
+
+---
 
 ### Tecnologias e Ferramentas Utilizadas
 
