@@ -71,7 +71,7 @@ Este repositório contém os relatórios de estágio supervisionado, organizados
 ---
 ### 📄 Relatório Orientador
 
-- **Arquivo:** [relatorio-final.pdf](relatorio-final.pdf)
+- **Arquivo:** [relatorio-orientador.pdf](relatorio-orientador.pdf)
 - **Status:** ✅ Concluído
 
 ---
