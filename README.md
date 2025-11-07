@@ -60,14 +60,12 @@ Este repositório contém os relatórios de estágio supervisionado, organizados
 - **Status:** ✅ Concluído
 
 ---
----
 ### 📄 Relatórios do Supervisor
 
-- **Arquivo:** [relatorio-supervisor-1.pdf]([relatorio-supervisor-1.pdf)
-- **Arquivo:** [relatorio-supervisor-2.pdf]([relatorio-supervisor-2.pdf)
+- **Arquivo:** [relatorio-supervisor-1.pdf](relatorio-supervisor-1.pdf)
+- **Arquivo:** [relatorio-supervisor-2.pdf](relatorio-supervisor-2.pdf)
 - **Status:** ✅ Concluído
 
----
 ---
 ### 📄 Relatório Orientador
 
